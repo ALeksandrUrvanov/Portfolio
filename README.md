@@ -14,7 +14,7 @@
 
 <tr>
   <td>1</td>
-  <td><a href = "https://github.com/ALeksandrUrvanov/define_train_number"> Распознание номера грузового вагона по фотографии  </a> </td>
+  <td><a href = "https://github.com/ALeksandrUrvanov/define_train_number"> Распознание номеров грузовых вагонов по фотографии  </a> </td>
   <td>Предоставлена выборка фотографий номеров грузовых вагонов с аннотацией. Необходимо построить модель распознавания изображений.</td>
   <td> YoloV8, TrOCRProcessor, VisionEncoderDecoderModel, Roboflow, PIL, IPython, seaborn, numpy, pandas, matplotlib  </td>
   <td> Модель YoloV8m показывает хорошие результаты, производительность модели на разных уровнях сложности обнаружения на тестовой выборке mAP50-95 = 0.87, mAP50 = 0.995. </td>
