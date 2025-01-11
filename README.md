@@ -15,11 +15,10 @@
 
 <tr>
   <td>1</td>
-  <td><a href = "https://github.com/ALeksandrUrvanov/ceres_gpt"> Исследование в сфере ASR  </a> </td>
-  <td>1. Создать AI-ассистента в виде консольного приложения и Telegram бота. 2. Используя платформу Huggingface и готовую библиотеку Python написать программу для разделения аудиодорожки на отдельные персоны и распознавания текста, сказанного каждой персоной на аудио.
- </td>
-  <td> vosk, whisper, pyannote, nltk, speech_recognition, gTTS, AudioSegment, numpy, SbertPuncCase, gc  </td>
-  <td> Модель whisper/pyannote/speaker-diarization-3.1 для диалога на анлийско языке показала наилучший результат. </td>
+  <td><a href = "https://github.com/ALeksandrUrvanov/ceres_gpt"> AI-ассистент  </a> </td>
+  <td>1. Создать AI-ассистента в виде консольного приложения и Telegram бота.</td>
+  <td> Python, OpenAI API (GPT-4-mini), aiogram 3.x, LangChain, Hugging Face Transformers, FAISS, AsyncIO  </td>
+  <td> AI-ассистент: t.me/@ceres_assistant_bot </td>
 </tr>
 
 <tr>
