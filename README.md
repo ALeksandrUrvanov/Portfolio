@@ -12,8 +12,18 @@
   <th>Итоги</th>
 </tr> 
 
+
 <tr>
   <td>1</td>
+  <td><a href = "https://github.com/ALeksandrUrvanov/ceres_gpt"> Исследование в сфере ASR  </a> </td>
+  <td>1. Создать AI-ассистента в виде консольного приложения и Telegram бота. 2. Используя платформу Huggingface и готовую библиотеку Python написать программу для разделения аудиодорожки на отдельные персоны и распознавания текста, сказанного каждой персоной на аудио.
+ </td>
+  <td> vosk, whisper, pyannote, nltk, speech_recognition, gTTS, AudioSegment, numpy, SbertPuncCase, gc  </td>
+  <td> Модель whisper/pyannote/speaker-diarization-3.1 для диалога на анлийско языке показала наилучший результат. </td>
+</tr>
+
+<tr>
+  <td>2</td>
   <td><a href = "https://github.com/ALeksandrUrvanov/asr_research"> Исследование в сфере ASR  </a> </td>
   <td>1. Написать программу распознования голосовых фраз. 2. Используя платформу Huggingface и готовую библиотеку Python написать программу для разделения аудиодорожки на отдельные персоны и распознавания текста, сказанного каждой персоной на аудио.
  </td>
@@ -22,7 +32,7 @@
 </tr>
 
 <tr>
-  <td>2</td>
+  <td>3</td>
   <td><a href = "https://github.com/ALeksandrUrvanov/define_train_number"> Распознание номеров грузовых вагонов по фотографии  </a> </td>
   <td>Предоставлена выборка фотографий номеров грузовых вагонов с аннотацией. Необходимо построить модель распознавания изображений.</td>
   <td> YoloV8, TrOCRProcessor, VisionEncoderDecoderModel, Roboflow, PIL, IPython, seaborn, numpy, pandas, matplotlib  </td>
@@ -30,7 +40,7 @@
 </tr>
 
 <tr>
-  <td>3</td>
+  <td>4</td>
   <td><a href = "https://github.com/ALeksandrUrvanov/predict_cost_houses"> Предсказание стоимости строящегося жилья </a> </td>
   <td> Построение модели предсказания стоимости жилья на основе имеющихся данных </td>
   <td> pandas, numpy, phik, matplotlib, sklearn, seaborn, RandomForestRegressor, Ridge, CatBoostRegressor, LGBMRegressor </td>
@@ -39,7 +49,7 @@
 </tr>
 
 <tr>
-  <td>4</td>
+  <td>5</td>
   <td><a href = "https://github.com/ALeksandrUrvanov/define_music_genre"> Определение жанра по изображению обложки музыкального диска </a> </td>
   <td>Очевидно, что оформление музыкального альбома как-то связано с его содержанием. Но насколько связано? Как подтвердить это, опираясь на данные? И чем это может быть полезно?</td>
   <td> pandas, sklearn, pytorch, fastai, resnet50  </td>
@@ -47,7 +57,7 @@
 </tr>
 
 <tr>
-  <td>5</td>
+  <td>6</td>
   <td><a href = "https://github.com/ALeksandrUrvanov/tutor_scam"> Построение ML-продукта для выявления и оптимизации платежей преподавателей сервиса Repetit.ru </a> </td>
   <td>Заказчику нужно как можно раньше понять, что репетитор недобросовестный или мошенник, чтобы отключить его от сервиса и отдавать заявки ответственным репетиторам.</td>
   <td> pandas, numpy, sklearn, phik, pipeline, RandomForestClassifier, CatBoostClassifier, LightGBM  </td>
@@ -55,7 +65,7 @@
 </tr>
 
 <tr>
-  <td>6</td>
+  <td>7</td>
   <td><a href = "https://github.com/ALeksandrUrvanov/subtitles_english_level"> Классификация фильмов по уровню владения английского языка </a> </td>
   <td>Разработать модель соотносящая фильмы к определенному уровню владения английского языка. </td>
   <td> pandas, numpy, sklearn, ntlk, pipeline, GridSearchCV, MultinomialNB, SGDClassifier  </td>
@@ -63,7 +73,7 @@
 </tr>
 
 <tr>
-  <td>7</td>
+  <td>8</td>
   <td><a href = "https://github.com/ALeksandrUrvanov/search_for_images_on_demand"> Разработка демонстрационной версии поиска изображений по текстовому запросу </a> </td>
   <td> Разработать нейронную сеть, которая получит векторное представление изображения, векторное представление текста, а на выходе выдаст число от 0 до 1 — что покажет, насколько текст и картинка подходят друг другу. </td>
   <td> pandas, numpy, sklearn, matplotlib, seaborn, tensorflow, keras_nlp, torch, glob, nltk, AutoModel, AutoTokenizer, GridSearchCV, Ridge </td>
@@ -71,7 +81,7 @@
 </tr>
 
 <tr>
-  <td>8</td>
+  <td>9</td>
   <td><a href = "https://github.com/ALeksandrUrvanov/predictions_temperature_stars"> Прогнозирование температуры звезды </a> </td>
   <td> Разработать нейронную сеть, которая поможет предсказывать абсолютную температуру на поверхности звезды. Достичь заданной метрики RMSE < 4500. </td>
   <td> pandas, numpy, sklearn, matplotlib, seaborn, torch </td>
@@ -79,7 +89,7 @@
 </tr>
 
 <tr>
-  <td>9</td>
+  <td>10</td>
   <td><a href = "https://github.com/ALeksandrUrvanov/predictions_orders_taxi"> Прогнозирование заказов такси </a> </td>
   <td> Разработать модель прогнозирования количество заказов такси на следующий час. Значение метрики RMSE на тестовой выборке должно быть не больше 48. </td>
   <td> pandas, numpy, matplotlib, sklearn, statsmodels, RandomForestRegressor, Ridge, CatBoostRegressor, LGBMRegressor </td>
@@ -87,7 +97,7 @@
 </tr>
 
 <tr>
-  <td>10</td>
+  <td>11</td>
   <td><a href = "https://github.com/ALeksandrUrvanov/used_cars_price"> Построение модели предсказания стоимости автомобиля на вторичном рынке </a> </td>
   <td> Разработать модель предсказания стоимости автомобиля на вторичном рынке. </td>
   <td> pandas, numpy, scipy, sklearn, seaborn, phik, CatBoostRegressor, XGBRegressor, Ridge </td>
@@ -95,7 +105,7 @@
 </tr>
 
 <tr>
-  <td>11</td>
+  <td>12</td>
   <td><a href = "https://github.com/ALeksandrUrvanov/churn_bank_customers"> Построение модели прогнозирования оттока клиентов банка </a></td>
   <td> Построить модель, способную спрогнозировать, уйдёт клиент из банка в ближайшее время или нет. </td>
   <td> pandas, sklearn, matplotlib </td>
@@ -103,7 +113,7 @@
 </tr>
 
 <tr>
-  <td>12</td>
+  <td>13</td>
   <td><a href = "https://github.com/ALeksandrUrvanov/churn_telecom_customers"> Прогнозирование оттока клиентов компании "Теледом" </a></td>
   <td> Обучить модель для прогноза оттока клиентов. </td>
   <td> pandas, numpy, sklearn, matplotlib, seaborn, lightgbm, xgboost, shap, phik, torch </td>
@@ -111,7 +121,7 @@
 </tr>
 
 <tr>
-  <td>13</td>
+  <td>14</td>
   <td><a href = "https://github.com/ALeksandrUrvanov/churn_hotel_customers"> Прогнозирование отказа клиентов отеля от брони </a></td>
   <td> Обучить модель для прогнозирования отказа клиентов отеля от брони. </td>
   <td> pandas, numpy, scipy, sklearn, matplotlib, seaborn </td>
@@ -119,7 +129,7 @@
 </tr>
 
 <tr>
-  <td>14</td>
+  <td>15</td>
   <td><a href = "https://github.com/ALeksandrUrvanov/recommend_tariffs"> Рекомендация тарифов телеком компании </a></td>
   <td> Построить модель для задачи классификации, которая выберет подходящий тариф с значением Accuracy не меньше 0.75. </td>
   <td> pandas, sklearn </td>
@@ -127,7 +137,7 @@
 </tr>
 
 <tr>
-  <td>15</td>
+  <td>16</td>
   <td><a href = "https://github.com/ALeksandrUrvanov/define_age_customers"> Определение возраста покупателей по фотографии </a></td>
   <td> Построить и обучить свёрточную нейронную сеть на датасете с фотографиями людей. Добиться значения MAE на тестовой выборке не больше 8. </td>
   <td> pandas, numpy, matplotlib, seaborn, tensorflow, keras </td>
@@ -135,7 +145,7 @@
 </tr>
 
 <tr>
-  <td>16</td>
+  <td>17</td>
   <td><a href = "https://github.com/ALeksandrUrvanov/define_negative_comments"> Классификация комментариев на позитивные и негативные </a></td>
   <td> Построить модель классификации комментариев на позитивные и негативные со значением метрики качества F1 не меньше 0.75. </td>
   <td> pandas, numpy, spacy, sklearn, ntlk, LGBMClassifier, CatBoostClassifier </td>
@@ -143,7 +153,7 @@
 </tr>
 
 <tr>
-  <td>17</td>
+  <td>18</td>
   <td><a href = "https://github.com/ALeksandrUrvanov/predictions_cost_flats"> Предсказание стоимости жилья </a></td>
   <td> Обучить модель линейной регрессии предсказывающую медианную стоимость дома в жилом массиве и сделайте предсказания на тестовой выборке.  </td>
   <td> pandas, numpy, seaborn, matplotlib, pyspark </td>
@@ -151,7 +161,7 @@
 </tr>
 
 <tr>
-  <td>18</td>
+  <td>19</td>
   <td><a href = "https://github.com/ALeksandrUrvanov/risk_cars_accident"> Oценить риск ДТП по выбранному маршруту движения </a></td>
   <td> Создать модель предсказания ДТП.  </td>
   <td> pandas, numpy, sklearn, matplotlib, seaborn, lightgbm, shap, phik </td>
@@ -159,7 +169,7 @@
 </tr>
 
 <tr>
-  <td>19</td>
+  <td>20</td>
   <td><a href = "https://github.com/ALeksandrUrvanov/well_selection"> Выбор локации для разработки скважин </a></td>
   <td> С помощью машинного обучения выбрать районы, которые подходят для разработки новых скважин по экономическим показателям.  </td>
   <td> pandas, numpy, scipy, sklearn, matplotlib  </td>
@@ -167,7 +177,7 @@
 </tr>
 
 <tr>
-  <td>20</td>
+  <td>21</td>
   <td><a href = "https://github.com/ALeksandrUrvanov/predictions_cost_cars"> Определение стоимости автомобилей </a></td>
   <td> Построить модель для определения стоимости. Заказчику важны: качество предсказания, скорость предсказания, время обучения. </td>
   <td> pandas, numpy, sklearn, matplotlib, seaborn, CatBoostRegressor, LGBMRegressor </td>
