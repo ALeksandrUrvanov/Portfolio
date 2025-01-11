@@ -16,7 +16,7 @@
 <tr>
   <td>1</td>
   <td><a href = "https://github.com/ALeksandrUrvanov/ceres_gpt"> AI-ассистент  </a> </td>
-  <td>1. Создать AI-ассистента в виде консольного приложения и Telegram бота.</td>
+  <td> Создать AI-ассистента в виде консольного приложения и Telegram бота.</td>
   <td> Python, OpenAI API (GPT-4-mini), aiogram 3.x, LangChain, Hugging Face Transformers, FAISS, AsyncIO  </td>
   <td> AI-ассистент: https://t.me/ceres_assistant_bot?start </td>
 </tr>
